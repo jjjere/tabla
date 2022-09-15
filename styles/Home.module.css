@@ -1,6 +1,4 @@
-.container {
-  padding: 0 2rem;
-}
+
 
 .main {
   min-height: 100vh;
@@ -115,15 +113,37 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+.empiezaDonar{
+  font-size: 40px;
+  margin-bottom: 90px;
+  border-bottom: 1px solid rgb(79, 90, 241);
+  color:rgb(8, 8, 8);
+  
 }
+
+
+
+/*PALETA DE COLORES*/
+
+.root{
+  --color-primary: #ffffff
+  --color-secundario: #202020
+  --color-tercero: #747474
+  
+}
+
+.color-primario{
+  background-color: #ffffff;
+
+}
+
+.color-secundario{
+  background-color: #202020;
+}
+
+.color-tercero{
+  background-color: #747474;
+}
+
+/*SCROLL DE LA PAGINA */
+ 
